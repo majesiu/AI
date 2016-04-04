@@ -1,0 +1,189 @@
+@import 'reset.css';
+
+$font-size: 16px;
+
+h1 {
+	font-size: $font-size*2;
+	display: inline-block;
+}
+h2 {
+	font-size: $font-size*1.5;
+}
+
+
+
+.header  {
+	margin: 0% 0% 0% 1%;
+	overflow:auto;
+
+	a {
+		text-decoration: none;
+		text-color: black;
+	}
+
+	#logo{
+  		float: left;
+	}
+
+	h1 {
+		  float:left;
+		  padding: 28px 0px 0px 0px;
+	}
+	a {
+		  float:right;
+		  padding: 32px 20px 20px 10px;
+	}
+
+	#nav4{
+  		position: absolute;
+  		top: 25px;
+  		right: 20px;
+	}
+}
+
+#zdjecie {
+    width: 500;
+    max-width: 100%;
+    min-width: 100%;
+    height: 300; 
+}
+
+
+#wrapper {
+	min-height:100%;
+	position:relative;
+}
+
+.row {
+
+}
+
+
+.info {
+	position:relative;
+	display: inline-block;
+	margin: 1% 0% 2% 1%;
+	text-align: justify;
+	background-color: green;
+	border:1px;
+	border-style: solid;
+
+	h2{
+		position:absolute;
+		top:0;
+		right:0;
+		border-left:1px;
+		border-bottom:1px;
+		border-style: solid;
+		background-color: blue;
+		padding: 0px 25px 0px;
+	}
+
+	p{
+		padding: 30px 5px 10px;
+	}
+
+}
+
+.last {
+	margin-bottom: 110px;
+}
+
+#footer {
+	position:absolute;
+	background:#ffab62;
+	width:100%;
+	bottom:0;
+	left:0;
+	padding: 30px 0px;
+	text-align: center;
+	border-top:1px;
+	border-style: solid;
+
+	#name {
+		font-weight:bold;
+	}
+}
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+	.row {
+		width:98%;
+		text-align: center;
+	}
+
+ @for $i from 1 through 12 {
+    .mob-#{$i} { 
+        width: 98% / 12 * $i ;
+    }
+
+
+    #title {
+    	visibility: hidden;
+    }
+
+    #nav1 {
+    	visibility: hidden;
+    }
+
+
+    #nav2 {
+    	visibility: hidden;
+    }
+
+
+    #nav3 {
+    	visibility: hidden;
+    }
+}
+}
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+ 
+	.row {
+		width:98%;
+		text-align: center;
+	}
+
+ @for $i from 1 through 12 {
+    .tab-#{$i} { 
+        width: 98% / 12 * $i - 2.5%;
+    }
+
+    #title {
+    	visibility: hidden;
+    }
+
+
+    #nav1 {
+    	visibility: hidden;
+    }
+
+
+    #nav2 {
+    	visibility: hidden;
+    }
+
+
+    #nav3 {
+    	visibility: hidden;
+    }
+ 
+}
+}
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+ @for $i from 1 through 12 {
+    .des-#{$i} {  
+        width: 100% / 12 * $i - 1.8%;
+    }
+ 	#menu {
+ 		visibility: hidden;
+ 	}
+
+
+    #nav4 {
+    	visibility: hidden;
+    }
+}
+}

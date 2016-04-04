@@ -1,0 +1,554 @@
+@import url(reset.css);
+h1 {
+  font-size: 32px;
+  display: inline-block; }
+
+h2 {
+  font-size: 24px; }
+
+.header {
+  margin: 0% 0% 0% 1%;
+  overflow: auto; }
+  .header a {
+    text-decoration: none;
+    text-color: black; }
+  .header #logo {
+    float: left; }
+  .header h1 {
+    float: left;
+    padding: 28px 0px 0px 0px; }
+  .header a {
+    float: right;
+    padding: 32px 20px 20px 10px; }
+  .header #nav4 {
+    position: absolute;
+    top: 25px;
+    right: 20px; }
+
+#zdjecie {
+  width: 500;
+  max-width: 100%;
+  min-width: 100%;
+  height: 300; }
+
+#wrapper {
+  min-height: 100%;
+  position: relative; }
+
+.info {
+  position: relative;
+  display: inline-block;
+  margin: 1% 0% 2% 1%;
+  text-align: justify;
+  background-color: green;
+  border: 1px;
+  border-style: solid; }
+  .info h2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-left: 1px;
+    border-bottom: 1px;
+    border-style: solid;
+    background-color: blue;
+    padding: 0px 25px 0px; }
+  .info p {
+    padding: 30px 5px 10px; }
+
+.last {
+  margin-bottom: 110px; }
+
+#footer {
+  position: absolute;
+  background: #ffab62;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  padding: 30px 0px;
+  text-align: center;
+  border-top: 1px;
+  border-style: solid; }
+  #footer #name {
+    font-weight: bold; }
+
+/* Mobile */
+@media only screen and (max-width: 767px) {
+  .row {
+    width: 98%;
+    text-align: center; }
+
+  .mob-1 {
+    width: 8.16667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-2 {
+    width: 16.33333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-3 {
+    width: 24.5%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-4 {
+    width: 32.66667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-5 {
+    width: 40.83333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-6 {
+    width: 49%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-7 {
+    width: 57.16667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-8 {
+    width: 65.33333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-9 {
+    width: 73.5%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-10 {
+    width: 81.66667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-11 {
+    width: 89.83333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .mob-12 {
+    width: 98%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; } }
+/* Tablet */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .row {
+    width: 98%;
+    text-align: center; }
+
+  .tab-1 {
+    width: 5.66667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-2 {
+    width: 13.83333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-3 {
+    width: 22%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-4 {
+    width: 30.16667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-5 {
+    width: 38.33333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-6 {
+    width: 46.5%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-7 {
+    width: 54.66667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-8 {
+    width: 62.83333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-9 {
+    width: 71%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-10 {
+    width: 79.16667%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-11 {
+    width: 87.33333%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; }
+
+  .tab-12 {
+    width: 95.5%; }
+
+  #title {
+    visibility: hidden; }
+
+  #nav1 {
+    visibility: hidden; }
+
+  #nav2 {
+    visibility: hidden; }
+
+  #nav3 {
+    visibility: hidden; } }
+/* Desktop */
+@media only screen and (min-width: 1024px) {
+  .des-1 {
+    width: 6.53333%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-2 {
+    width: 14.86667%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-3 {
+    width: 23.2%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-4 {
+    width: 31.53333%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-5 {
+    width: 39.86667%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-6 {
+    width: 48.2%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-7 {
+    width: 56.53333%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-8 {
+    width: 64.86667%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-9 {
+    width: 73.2%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-10 {
+    width: 81.53333%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-11 {
+    width: 89.86667%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; }
+
+  .des-12 {
+    width: 98.2%; }
+
+  #menu {
+    visibility: hidden; }
+
+  #nav4 {
+    visibility: hidden; } }
+
+/*# sourceMappingURL=style.css.map */
